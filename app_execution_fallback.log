@@ -1,0 +1,59 @@
+[2026-05-02 11:22:50] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/1'}
+[2026-05-02 11:22:50] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 1'}
+[2026-05-02 11:22:50] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:22:50] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Failed to fetch depots: 401 Client Error: Unauthorized for url: http://20.207.122.201/evaluation-service/depots'}
+[2026-05-02 11:22:50] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:22:50] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Failed to fetch vehicles: 401 Client Error: Unauthorized for url: http://20.207.122.201/evaluation-service/vehicles'}
+[2026-05-02 11:22:51] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'error', 'package': 'middleware', 'message': 'Request Completed -> Status: 500, Took: 0.6109s'}
+[2026-05-02 11:24:22] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/1'}
+[2026-05-02 11:24:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 1'}
+[2026-05-02 11:24:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:24:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:24:23] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Requested depot 1 was not found.'}
+[2026-05-02 11:24:23] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'warn', 'package': 'middleware', 'message': 'Request Completed -> Status: 404, Took: 1.1718s'}
+[2026-05-02 11:25:22] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/1'}
+[2026-05-02 11:25:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 1'}
+[2026-05-02 11:25:23] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:25:23] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:25:23] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Requested depot 1 was not found.'}
+[2026-05-02 11:25:23] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'warn', 'package': 'middleware', 'message': 'Request Completed -> Status: 404, Took: 0.707s'}
+[2026-05-02 11:25:36] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/2'}
+[2026-05-02 11:25:37] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 2'}
+[2026-05-02 11:25:37] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:25:37] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:25:37] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Starting Knapsack optimization. Tasks: 39, Budget: 135 hrs'}
+[2026-05-02 11:25:37] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Optimization finished. Selected 34 vehicles.'}
+[2026-05-02 11:25:37] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Request Completed -> Status: 200, Took: 0.7219s'}
+[2026-05-02 11:27:11] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/3'}
+[2026-05-02 11:27:11] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 3'}
+[2026-05-02 11:27:11] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:27:12] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:27:12] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Starting Knapsack optimization. Tasks: 39, Budget: 188 hrs'}
+[2026-05-02 11:27:12] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Optimization finished. Selected 39 vehicles.'}
+[2026-05-02 11:27:12] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Request Completed -> Status: 200, Took: 1.019s'}
+[2026-05-02 11:27:21] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/4'}
+[2026-05-02 11:27:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 4'}
+[2026-05-02 11:27:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:27:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:27:22] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Starting Knapsack optimization. Tasks: 37, Budget: 97 hrs'}
+[2026-05-02 11:27:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Optimization finished. Selected 24 vehicles.'}
+[2026-05-02 11:27:22] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Request Completed -> Status: 200, Took: 0.7372s'}
+[2026-05-02 11:27:30] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/5'}
+[2026-05-02 11:27:30] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 5'}
+[2026-05-02 11:27:30] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:27:30] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:27:30] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Requested depot 5 was not found.'}
+[2026-05-02 11:27:30] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'warn', 'package': 'middleware', 'message': 'Request Completed -> Status: 404, Took: 0.6014s'}
+[2026-05-02 11:27:38] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/3'}
+[2026-05-02 11:27:39] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 3'}
+[2026-05-02 11:27:39] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:27:39] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:27:39] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Starting Knapsack optimization. Tasks: 36, Budget: 188 hrs'}
+[2026-05-02 11:27:39] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Optimization finished. Selected 36 vehicles.'}
+[2026-05-02 11:27:39] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Request Completed -> Status: 200, Took: 0.7411s'}
+[2026-05-02 11:31:19] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'middleware', 'message': 'Incoming Request -> Method: GET Path: /api/schedule/1'}
+[2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Triggered optimization schedule for Depot ID: 1'}
+[2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/depots API'}
+[2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
+[2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Requested depot 1 was not found.'}
+[2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'warn', 'package': 'middleware', 'message': 'Request Completed -> Status: 404, Took: 0.4629s'}
