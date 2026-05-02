@@ -1,7 +1,13 @@
 import os
+import sys
+
+# Add the parent directory to sys.path so we can import logging_middleware from the root
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import requests
 from dotenv import load_dotenv
 from datetime import datetime
+from logging_middleware.logger import app_logger
 
 # Load environment variables
 load_dotenv(override=True)
@@ -19,7 +25,7 @@ PRIORITY_WEIGHTS = {
 }
 
 def fetch_all_notifications():
-    print("Fetching notifications from API...")
+    app_logger.info("Fetching notifications from API...")
     url = "http://20.207.122.201/evaluation-service/notifications"
     response = requests.get(url, headers=AUTH_HEADERS)
     response.raise_for_status()
@@ -46,6 +52,6 @@ def get_priority_inbox(n: int = 10):
 if __name__ == "__main__":
     top_10 = get_priority_inbox(10)
     
-    print("\n--- PRIORITY INBOX (TOP 10) ---\n")
+    app_logger.info("--- PRIORITY INBOX (TOP 10) ---")
     for index, notif in enumerate(top_10, 1):
-        print(f"{index}. [{notif['Type']}] - {notif['Message']} (Sent: {notif['Timestamp']})")
+        app_logger.info(f"{index}. [{notif['Type']}] - {notif['Message']} (Sent: {notif['Timestamp']})")

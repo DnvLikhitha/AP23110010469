@@ -57,3 +57,28 @@
 [2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Calling evaluation-service/vehicles API'}
 [2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'error', 'package': 'handler', 'message': 'Requested depot 1 was not found.'}
 [2026-05-02 11:31:19] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'warn', 'package': 'middleware', 'message': 'Request Completed -> Status: 404, Took: 0.4629s'}
+[2026-05-02 12:06:13] API LOG FAILED (Status 401): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Fetching notifications from API...'}
+[2026-05-02 12:13:12] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Fetching notifications from API...'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '--- PRIORITY INBOX (TOP 10) ---'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '1. [Placement] - Marriott International Inc. hiring (Sent: 2026-05-01 20:41:27)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '2. [Placement] - Marriott International Inc. hiring (Sent: 2026-05-01 07:11:21)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '3. [Result] - end-sem (Sent: 2026-05-02 05:11:15)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '4. [Result] - end-sem (Sent: 2026-05-02 04:12:03)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '5. [Result] - end-sem (Sent: 2026-05-01 23:41:33)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '6. [Result] - internal (Sent: 2026-05-01 17:12:09)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '7. [Result] - external (Sent: 2026-05-01 16:12:27)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '8. [Result] - project-review (Sent: 2026-05-01 14:12:15)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '9. [Result] - external (Sent: 2026-05-01 12:11:51)'}
+[2026-05-02 12:13:13] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '10. [Result] - mid-sem (Sent: 2026-05-01 10:41:57)'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': 'Fetching notifications from API...'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 201): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '--- PRIORITY INBOX (TOP 10) ---'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '1. [Placement] - PayPal Holdings Inc. hiring (Sent: 2026-05-01 15:13:21)'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '2. [Placement] - Berkshire Hathaway Inc. hiring (Sent: 2026-05-01 12:13:15)'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '3. [Result] - end-sem (Sent: 2026-05-02 04:12:03)'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '4. [Result] - external (Sent: 2026-05-02 02:13:27)'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '5. [Result] - end-sem (Sent: 2026-05-01 23:41:33)'}
+[2026-05-02 12:13:31] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '6. [Result] - internal (Sent: 2026-05-01 17:12:09)'}
+[2026-05-02 12:13:32] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '7. [Result] - external (Sent: 2026-05-01 16:12:27)'}
+[2026-05-02 12:13:32] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '8. [Result] - project-review (Sent: 2026-05-01 14:12:15)'}
+[2026-05-02 12:13:32] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '9. [Result] - external (Sent: 2026-05-01 12:11:51)'}
+[2026-05-02 12:13:32] API LOG FAILED (Status 400): {'stack': 'backend', 'level': 'info', 'package': 'handler', 'message': '10. [Result] - mid-sem (Sent: 2026-05-01 10:41:57)'}
